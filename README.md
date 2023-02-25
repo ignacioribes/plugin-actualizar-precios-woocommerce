@@ -1,9 +1,7 @@
 # plugin-actualizar-precios-woocommerce
-Actualizar precios de todos los productos automaticamente cada mes
+Actualizar precios de todos los productos automaticamente cada mes en base a un porcentaje. Ej. 5% al mes.
 
-Al instalar el plugin se actualizan automaticamente todos los precios de los productos un 5% por mes.
-
-Para ver las opciones del plugin, deberías ir a la página "Configuración > General" en el panel de administración de WordPress. Allí verás una nueva sección con el título "Actualizar precio de producto cada mes", que contiene el campo de entrada para el valor multiplicador que se usará para actualizar los precios de los productos cada mes.
+Para ver las opciones del plugin, deberías ir a la página "Configuración > General" en el panel de administración de WordPress. Allí verás una nueva sección con el título "Actualizar precio de producto cada mes", que contiene el campo de entrada para el valor multiplicador que se usará para actualizar los precios de los productos cada mes automaticamente via cron.
 
 ## Preguntas frecuentes
 
