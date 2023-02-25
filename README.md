@@ -7,6 +7,9 @@ Para ver las opciones del plugin, deberías ir a la página "Configuración > Ge
 
 ## Preguntas frecuentes
 
+### ¿Como instalar el plugin?
+Bajar el archivo zip desde el ultimo release del repositorio, luego subir el archivo a la instancia de Woordpres /wp-content/plugins/
+
 ### ¿La actualizacion se hace el primer dia del mes?
 Sí, la actualización se hará cada mes en el primer día del mes. Esto se debe a que en la línea de código que programó la tarea cron, se establece la frecuencia de ejecución en 'monthly', lo que significa que la tarea se ejecutará una vez al mes, y la hora de inicio se establece en la hora actual en la que se activa el plugin mediante la función wp_schedule_event( time(), 'monthly', 'update_product_prices_cron' );.
 
